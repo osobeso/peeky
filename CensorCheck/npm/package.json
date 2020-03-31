@@ -1,0 +1,24 @@
+{
+  "name": "peeky",
+  "version": "0.0.0-placeholder",
+  "description": "",
+  "scripts": {
+    "pack": "node ./deploy.js",
+    "publish": "node ./publish.js"
+  },
+  "keywords": [
+    "peeky"
+  ],
+  "author": "Oscar Obeso",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.1",
+    "@types/semver": "^5.4.0",
+    "nerdbank-gitversioning": "^2.3.183",
+    "source-map-support": "^0.5.16",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
